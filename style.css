@@ -5,8 +5,9 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
-    color: #303030;
+    width: 1440px;
+    height: 2047px;
+    color: rgb(48, 48, 48)
 }
 
 header {
@@ -16,11 +17,19 @@ header {
     padding: 23px 0px;/* Стили для хедера */
 }
 
-header span {
+header {
     font-weight: 700;
     font-size: 20px;
     color: #fff;/* Стили для текста в хедере IT-INCUBATOR */
 }
+
+span {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 23px;
+    color: #fff;
+} 
 
 .main-section {
     width: 1440px;
