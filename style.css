@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Inter' sans-serif;
+    color: #303030;
 }
 
 header {
@@ -140,7 +141,7 @@ footer {
     width: 1440px;
     height: 70px;
     background: rgba(163, 167, 255, 0.3);
-    padding: 26px 1360px 0px;
+    padding: 26px 1px;
     /* Стили для футера */
 }
 
@@ -148,6 +149,5 @@ footer {
     font-weight: 400;
     font-size: 14px;
     color: #2965f1;
-    text-decoration: none;
-/* Стили для футера */
+    text-decoration: none;/* Стили для футера */
 }
