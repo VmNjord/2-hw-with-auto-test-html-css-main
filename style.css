@@ -96,7 +96,8 @@ select {
     font-size: 16px;
     color: #303030;
     list-style-type: none;
-    list-style-image: url(./assets/image/solar-map-arrow-up-bold.svg);/* Стили для маркированного списка во второй секции */
+    list-style-image: url(./assets/image/map-arrow.svg);
+    padding: 0px 20px;/* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
@@ -148,12 +149,10 @@ table {
 }
 
 th, td {
-    width: 134px;
-    height: 40px;
-    text-align: left;
-    color: #303030;
-    padding:11px 0px 11px 15px;
-    /* Стили для ячеек таблицы */
+    font-family: "Inter", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 11px;
+    padding: 12px 15px;/* Стили для ячеек таблицы */
 }
 
 footer {
