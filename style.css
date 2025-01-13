@@ -57,10 +57,12 @@ span {
 }
 
 .about-section {
-    background-color: #fafaff;
     width: 1440px;
     height: 883px;
-    margin: 100px 0px;/* Стили для второй секции */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 100px 0px;
+    background: #fafaff/* Стили для второй секции */
 }
 
 select {
@@ -79,25 +81,30 @@ select {
 }
 
 .section-title {
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 24px;
     color: #303030;
-    padding-bottom: 25px;/* Стили для заголовков во второй секции */
+    margin-bottom: 25px;/* Стили для заголовков во второй секции */
 }
 
 .frameworks-list {
-    width: 80px;
+    width: 280px;
     height: 57px;
-    background: #fff;
-    list-style-image: url(./assets/image/solar-map-arrow-up-bold.svg);
-    padding-left: 20px;/* Стили для маркированного списка во второй секции */
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+    list-style-type: none;
+    list-style-image: url(./assets/image/solar-map-arrow-up-bold.svg);/* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
-    width: 670px;
-    height: 57px;
-    background: #fff;
-    padding-left: 20px;/* Стили для нумерованного списка во второй секции */
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+    padding: 0px 20px;/* Стили для нумерованного списка во второй секции */
 }
 
 .label {
@@ -107,11 +114,14 @@ select {
 }
 
 .text-field {
+    font-family: "Inter", sans-serif;
     border: 1px solid rgba(48, 48, 48, 0.3);
     border-radius: 5px;
     width: 330px;
     height: 36px;
-    background: rgba(255, 255, 255, 0);/* Стили для односточного поля ввода текста */
+    background: rgba(255, 255, 255, 0);
+    font-weight: 400;
+    font-size: 16px;/* Стили для односточного поля ввода текста */
 }
 
 .btn {
@@ -133,8 +143,8 @@ select {
 
 table {
     width: 300px;
-    height: 214px;
-    border-collapse: collapse; /* Стили для таблицы */
+    height: 196px;
+    font-size: 14px;/* Стили для таблицы */
 }
 
 th, td {
@@ -150,13 +160,14 @@ footer {
     width: 1440px;
     height: 70px;
     background: rgba(163, 167, 255, 0.3);
-    padding: 26px 1px;
+    padding: 26px 0px;
     /* Стили для футера */
 }
 
 .footer-link {
+    text-decoration: none;
     font-weight: 400;
     font-size: 14px;
     color: #2965f1;
-    text-decoration: none;/* Стили для футера */
+    font-family: "Inter", sans-serif;/* Стили для футера */
 }
